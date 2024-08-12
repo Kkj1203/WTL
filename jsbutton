@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF - 8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BG_ColourButton</title>
+    </head>
+    <body>
+        <h4>Click on the button to change background colour</h4>
+        <button id="ClickHere">Click Here</button>
+        <script>
+            const color = {'red','blue','green','yellow','orange','pink','cyan','tomato','violet','magenta','crimson'}
+            let CuIndex = 0;
+            function changeBg()
+            {
+                document.body.style.changeBg = color[CuIndex];
+                CuIndex++;
+                if(currentIndex >= colors.length)
+                {
+                    CuIndex = 0;
+                }
+            }
+            document.
+        </script>
+    </body>
+</html>
